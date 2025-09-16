@@ -32,7 +32,7 @@ class MyDocument extends Document {
           />
           <meta
             property="og:url"
-            content={setting?.meta_url || "https://timelessfurnishing.in"}
+            content={setting?.meta_url || "https://lalajinamkeens.in"}
           />
           <meta
             property="og:image"
