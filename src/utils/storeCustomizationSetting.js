@@ -151,7 +151,7 @@ export const storeCustomization = {
     },
     latest_discount_product_limit: 18,
     daily_need_title: {
-      en: "Get Your Daily Needs From Our Timeless Furnishing Store",
+      en: "Get Your Daily Needs From Our lalaji namkeens Store",
       de: "Holen Sie sich Ihren täglichen Bedarf in Ihrem CloudCleaver-Shop",
     },
     daily_need_description: {
@@ -880,7 +880,7 @@ export const storeCustomization = {
     meta_img:
       "https://res.cloudinary.com/ahossain/image/upload/v1636729752/facebook-page_j7alju.png",
     meta_keywords: "e-commerce, online store",
-    meta_title: "Timeless Furnishing  ",
+    meta_title: "lalaji namkeens & snacks",
     meta_url: "https://timelessfurnishing.in/",
   },
 };

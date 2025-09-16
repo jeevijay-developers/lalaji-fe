@@ -19,7 +19,7 @@ class MyDocument extends Document {
           <link rel="icon" href={"logo/logo.png"} />
           <meta
             property="og:title"
-            content={setting?.meta_title || "Timeless Furnishing"}
+            content={setting?.meta_title || "lalaji namkeens"}
           />
           <meta property="og:type" content="eCommerce Website" />
           <meta

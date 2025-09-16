@@ -452,7 +452,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="text-customPink"
           >
-            Timeless Furnishing
+            Lalaji Namkeens
           </Link>
           , All rights reserved.
         </p>

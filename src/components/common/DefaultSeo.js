@@ -9,12 +9,12 @@ const DefaultSeo = () => {
 
   return (
     <NextSeo
-      title={globalSetting?.meta_title || "Timeless Furnishing"}
+      title={globalSetting?.meta_title || "lalaji namkeens"}
       openGraph={{
         type: "website",
         locale: "en_IE",
         url: globalSetting?.meta_url || "https://timelessfurnishing.in",
-        site_name: globalSetting?.meta_title || "Timeless Furnishing",
+        site_name: globalSetting?.meta_title || "lalaji namkeens",
       }}
       twitter={{
         handle: "@handle",
