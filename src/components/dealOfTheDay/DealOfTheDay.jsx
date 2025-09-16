@@ -1,9 +1,9 @@
-"use client"
-import { useRouter } from 'next/router';
-import React from 'react'
+"use client";
+import { useRouter } from "next/router";
+import React from "react";
 
 const DealOfTheDay = () => {
-  const router = useRouter()
+  const router = useRouter();
   return (
     <div>
       <div className="bg-gray-100 py-16">
@@ -13,7 +13,7 @@ const DealOfTheDay = () => {
             <div className="w-full lg:w-1/2 flex justify-center">
               <div className="relative">
                 <img
-                  src="/cta/offerOfTheDay.png"
+                  src="/cta/LALAJICTA.jpeg"
                   alt="Deal of the Day"
                   className="w-64 h-64 lg:w-96 lg:h-80 object-contain"
                 />
@@ -56,6 +56,6 @@ const DealOfTheDay = () => {
       </div>
     </div>
   );
-}
+};
 
-export default DealOfTheDay
+export default DealOfTheDay;

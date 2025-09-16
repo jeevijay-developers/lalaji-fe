@@ -1,10 +1,10 @@
-"use client"
-import Image from 'next/image';
-import { useRouter } from 'next/router';
-import React from 'react'
+"use client";
+import Image from "next/image";
+import { useRouter } from "next/router";
+import React from "react";
 
 const PremiumFurniture = () => {
-  const router = useRouter()
+  const router = useRouter();
   return (
     <div>
       <div className="bg-white py-16">
@@ -30,7 +30,7 @@ const PremiumFurniture = () => {
                   {/* Content */}
                   <div className="lg:w-1/2 text-center lg:text-left">
                     <h3 className="text-3xl lg:text-4xl font-bold text-gray-800 mb-4">
-                      Premium Furniture
+                      Premium Snaks
                     </h3>
                     <p className="text-gray-600 text-lg mb-6 uppercase tracking-wide">
                       NEW AUTUMN ARRIVAL 2025
@@ -55,7 +55,7 @@ const PremiumFurniture = () => {
                       {/* Placeholder for main chair image */}
                       <div className="w-80 h-80 bg-gray-200 rounded-lg flex items-center justify-center">
                         <Image
-                          src="/chairs/chair1.jpg"
+                          src="/cta/LALAJICTA.jpeg"
                           alt="Main Chair"
                           layout="fill"
                           objectFit="cover"
@@ -75,7 +75,7 @@ const PremiumFurniture = () => {
                 <div className="flex items-center gap-4">
                   <div className="w-28 h-36 bg-gray-200 rounded-lg flex items-center justify-center text-xs text-gray-500 text-center">
                     <Image
-                      src="/chairs/chair2.jpg"
+                      src="/cta/1.jpg"
                       alt="Main Chair"
                       layout="fill"
                       objectFit="cover"
@@ -92,7 +92,7 @@ const PremiumFurniture = () => {
                 <div className="flex items-center gap-4">
                   <div className="w-28 h-36 bg-gray-200 rounded-lg flex items-center justify-center text-xs text-gray-500 text-center">
                     <Image
-                      src="/chairs/chair3.jpg"
+                      src="/cta/2.jpg"
                       alt="Sofa"
                       layout="fill"
                       objectFit="cover"
@@ -109,6 +109,6 @@ const PremiumFurniture = () => {
       </div>
     </div>
   );
-}
+};
 
-export default PremiumFurniture
+export default PremiumFurniture;

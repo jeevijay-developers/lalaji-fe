@@ -283,7 +283,7 @@ const Footer = () => {
                   width={180}
                   height={180}
                   className="object-contain"
-                  src={"/logo/gray-logo.png"}
+                  src={"/logo/image.png"}
                   alt="logo"
                 />
               </div>

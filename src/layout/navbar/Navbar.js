@@ -25,7 +25,6 @@ import CategoryDrawer from "@components/drawer/CategoryDrawer";
 import MegaMenuContent from "./MegaMenuContent";
 import NavbarPagesPopover from "./NavbarPagesPopover";
 
-
 const Navbar = () => {
   const { data: categoryData, isLoading: isCategoryLoading } = useQuery({
     queryKey: ["navbarCategories"],
@@ -62,7 +61,7 @@ const Navbar = () => {
   const handleMouseLeave = () => {
     leaveTimer = setTimeout(() => {
       setHoveredCategory(null);
-    }, 400); 
+    }, 400);
   };
 
   const handleMouseEnter = (category) => {
@@ -92,7 +91,7 @@ const Navbar = () => {
                     height={100}
                     style={{ width: "15rem", maxWidth: "100rem" }}
                     priority
-                    src="/logo/gray-logo.png"
+                    src="/logo/image.png"
                     alt="logo"
                   />
                 </Link>
@@ -121,9 +120,7 @@ const Navbar = () => {
 
               {/* Icons */}
               <div className="flex items-center space-x-3 lg:space-x-10">
-           
-                  <CategoryDrawer className="w-6 h-6 drop-shadow-xl" />
-                
+                <CategoryDrawer className="w-6 h-6 drop-shadow-xl" />
 
                 <div className="flex flex-col items-center">
                   <button
@@ -171,7 +168,9 @@ const Navbar = () => {
                         <FaRegUser className="w-6 h-6" />
                       </Link>
                     )}
-                  <span className="text-xs mt-1 hidden lg:block">Account</span>
+                    <span className="text-xs mt-1 hidden lg:block">
+                      Account
+                    </span>
                   </button>
                 </div>
               </div>
